@@ -1,0 +1,66 @@
+*{
+    font-family: 'Nunito', sans-serif;
+}
+
+.landing{
+    background-image: url('https://images.unsplash.com/photo-1433838552652-f9a46b332c40?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8NHx8fGVufDB8fHx8fA%3D%3D&w=1000&q=80');
+   width: 100%;
+   height: 700px;
+   background-position: fixed;
+   background-size: cover;
+   background-attachment: fixed;
+}
+.landing-text{
+    color: orange;
+    font-size: 50px;
+    text-align: left;
+    align-items: center;
+    font-family: 'Croissant One', serif;
+}
+#footer_color{
+    background-color:rgb(78, 71, 144);
+}
+#layer{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+#varnasi,#kashmir,#punjab,#rajastan{
+    position: relative;
+}
+#title{
+    color: transparent;
+    font-size: 20px;
+    font-weight: bold;
+}
+#rate{
+    color: transparent;
+}
+#layer>a{
+    text-decoration: none;
+    color: transparent;
+    background-color: transparent;
+    border-radius: 20px;
+    padding: 9px;
+}
+#layer:hover{
+    background-color: rgba(0, 247, 255, 0.9);
+}
+#layer:hover #title{
+    color: white;
+    font-size: 33px;
+}
+#layer:hover #rs{
+    color: black;
+    font-weight: bold;
+    font-size: 23px;
+}
+#layer:hover #amt{
+    color: blue;
+    font-weight: bold;
+    font-size: 23px;
+}
+#layer:hover a{
+    color: white;
+    background-color: red;
+}
